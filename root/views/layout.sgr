@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='description' content='')
+    meta(name='author' content='')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+
+    block(name='title')
+      title Title of Your Site
+
+    link(rel='stylesheet' href='css/index.css')
+    block(name='style')
+
+  body
+    block(name='content')
+
+    block(name='javascript')
+      script(src='js/main.js' defer)

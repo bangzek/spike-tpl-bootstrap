@@ -1,0 +1,42 @@
+{
+  "name": "<%= S(name).slugify().value() %>",
+  "description": "<%= description %>",
+  "version": "0.0.1",
+  "author": "",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "bootstrap": "https://github.com/twbs/bootstrap/archive/v4-dev.tar.gz",
+    "cssnano": "^3.10.0",
+    "node-sass": "^4.5.3",
+    "postcss-calc": "^6.0.0",
+    "reshape-standard": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "spike": "^2.0.0",
+    "spike-js-standards": "^2.0.2",
+    "spike-optimize": "^0.1.2",
+    "spike-page-id": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "rimraf": "^2.6.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2"
+  },
+  "homepage": "",
+  "main": "app.js",
+  "private": true,
+  "repository": "",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava",
+    "start": "spike watch",
+    "build": "spike compile",
+    "prod": "NODE_ENV=production spike compile -e production"
+  }
+}

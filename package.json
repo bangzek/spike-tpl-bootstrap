@@ -1,0 +1,34 @@
+{
+  "name": "spike-tpl-boostrap",
+  "description": "Spike template with bootstrap 4 scss and js",
+  "version": "0.0.1",
+  "author": "Zakaria",
+  "ava": {
+    "verbose": "true",
+    "serial": "true",
+    "files": "test/test.js"
+  },
+  "bugs": "https://github.com/bangzek/spike-tpl-boostrap/issues",
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "os-tmpdir": "^1.0.1",
+    "rmfr": "^1.0.2",
+    "spike-core": "^2.0.0",
+    "sprout": "^1.2.1",
+    "when": "^3.7.7"
+  },
+  "homepage": "https://github.com/bangzek/spike-tpl-boostrap",
+  "keywords": [
+    "spike",
+    "spike-template",
+    "sprout",
+    "sprout-template",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "main": "init.js",
+  "repository": "bangzek/spike-tpl-boostrap",
+  "scripts": {
+    "test": "ava"
+  }
+}
