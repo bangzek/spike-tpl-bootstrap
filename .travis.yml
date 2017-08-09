@@ -3,5 +3,5 @@ language: node_js
 node_js:
   - 6
 before_script:
-  - git config --global user.email "dev@carrotcreative.com"
-  - git config --global user.name "Carrot Creative"
+  - git config --global user.email "z4k4ri4@gmail.com"
+  - git config --global user.name "Zakaria bin Haris"
