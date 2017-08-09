@@ -1,7 +1,7 @@
 {
   "name": "spike-tpl-boostrap",
   "description": "Spike template with bootstrap 4 scss and js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Zakaria",
   "ava": {
     "verbose": "true",
