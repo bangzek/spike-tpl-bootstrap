@@ -15,12 +15,13 @@
     "node-sass": "^4.5.3",
     "popper.js": "^1.11.1",
     "postcss-calc": "^6.0.0",
-    "reshape-standard": "^2.0.0",
+    "reshape-standard": "^3.0.0",
     "sass-loader": "^6.0.6",
     "spike": "^2.0.0",
     "spike-js-standards": "^2.0.2",
     "spike-optimize": "^0.1.2",
-    "spike-page-id": "^1.0.0"
+    "spike-page-id": "^1.0.0",
+    "sugarml": "^0.6.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",

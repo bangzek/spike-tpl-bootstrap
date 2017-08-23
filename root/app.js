@@ -4,7 +4,8 @@ const webpack = require('webpack')
 const htmlStandards = require('reshape-standard')
 const jsStandards = require('spike-js-standards')
 const pageId = require('spike-page-id')
-const env = process.env.NODE_ENV
+const sugarml = require('sugarml')
+const env = process.env.SPIKE_ENV
 
 function css (options) {
   const plugins = [
@@ -72,6 +73,7 @@ module.exports = {
   ],
 
   reshape: htmlStandards({
+    parser: sugarml,
     locals: locals,
     minify: env === 'production'
   }),
