@@ -14,7 +14,6 @@
     "jquery": "^3.2.1",
     "node-sass": "^4.5.3",
     "popper.js": "^1.11.1",
-    "postcss-calc": "^6.0.0",
     "reshape-standard": "^3.0.0",
     "sass-loader": "^6.0.6",
     "spike": "^2.0.0",
@@ -41,5 +40,15 @@
     "start": "spike watch",
     "build": "spike compile",
     "prod": "NODE_ENV=production spike compile -e production"
-  }
+  },
+  "browserslist": [
+    "Chrome >= 45",
+    "Firefox ESR",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
 }
