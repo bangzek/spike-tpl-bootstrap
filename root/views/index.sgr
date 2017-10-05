@@ -1,4 +1,4 @@
-extends(src='layout.sgr')
+extends(src='_layout.sgr')
   block(name='title')
     title Starter Template for Bootstrap
 
@@ -29,7 +29,7 @@ extends(src='layout.sgr')
         ul.navbar-nav.mr-auto
           li.nav-item.active
             a.nav-link(href='#')
-              | Home 
+              | Home
               span.sr-only (current)
           li.nav-item
             a.nav-link(href='#') Link

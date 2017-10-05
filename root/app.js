@@ -27,7 +27,7 @@ function locals (ctx) {
 module.exports = {
   devtool: 'source-map',
   matchers: { html: '*(**/)*.sgr', css: '*(**/)*.scss' },
-  ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
+  ignore: ['**/_*', '**/.*', 'readme.md', 'package-lock.json'],
   module: {
     rules: [{
       test: /\.scss/,
@@ -50,6 +50,7 @@ module.exports = {
   ],
 
   reshape: htmlStandards({
+    root: 'views',
     parser: sugarml,
     locals: locals,
     minify: env === 'production'

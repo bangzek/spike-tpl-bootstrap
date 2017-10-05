@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.4.0] - 2017-10-05
+### Changed
+- Rename layout.sgr to \_layout.sgr
+- Ignore package-lock.json instead yarn.lock
+- Set reshape root options for consistent layout and include path
+
 ## [0.3.0] - 2017-10-05
 ### Changed
 - Remove postcss-calc because bootstrap css no longer need it
