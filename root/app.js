@@ -50,7 +50,7 @@ module.exports = {
   ],
 
   reshape: htmlStandards({
-    root: 'views',
+    root: __dirname + '/views',
     parser: sugarml,
     locals: locals,
     minify: env === 'production'

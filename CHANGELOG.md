@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.4.1] - 2017-10-05
+### Changed
+- Fix reshape root as absolute dir so the test could pass
+
 ## [0.4.0] - 2017-10-05
 ### Changed
 - Rename layout.sgr to \_layout.sgr
