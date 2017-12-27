@@ -4,7 +4,7 @@ module.exports = {
   devtool: false,
   afterSpikePlugins: [...optimize({
     scopeHosting: true,
-    aggressiveSplitting: true,
+    aggressiveSplitting: false,
     minify: true
   })]
 }

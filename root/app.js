@@ -30,6 +30,12 @@ module.exports = {
   ignore: ['**/_*', '**/.*', 'readme.md', 'package-lock.json'],
   module: {
     rules: [{
+      test: require.resolve('jquery'),
+      use: [{
+        loader: 'expose-loader',
+        options: '$'
+      }]
+    }, {
       test: /\.scss/,
       use: [{
         loader: 'sass-loader',
@@ -56,6 +62,7 @@ module.exports = {
     minify: env === 'production'
   }),
   postcss: css({
+    autoprefixer: { cascade: false },
     minify: env === 'production'
   }),
   babel: jsStandards()
