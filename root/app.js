@@ -1,3 +1,4 @@
+const path = require('path')
 const autoprefixer = require('autoprefixer')
 const webpack = require('webpack')
 const htmlStandards = require('reshape-standard')
@@ -56,7 +57,7 @@ module.exports = {
   ],
 
   reshape: htmlStandards({
-    root: __dirname + '/views',
+    root: path.join(__dirname, 'views'),
     parser: sugarml,
     locals: locals,
     minify: env === 'production'
